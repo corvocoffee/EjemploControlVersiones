@@ -32,3 +32,16 @@ base <- 6
 altura <- 4
 cat("El área de un triángulo de base", base, "y altura", altura, "es:", area_triangulo(base, altura))
 ```
+## Área de un rectángulo
+```{r}
+# Función para calcular área de un rectángulo
+area_rectangulo <- function(largo, ancho) {
+  area <- largo * ancho
+  return(area)
+}
+
+# Ejemplo
+largo <- 8
+ancho <- 3
+cat("El área de un rectángulo de largo", largo, "y ancho", ancho, "es:", area_rectangulo(largo, ancho))
+```
