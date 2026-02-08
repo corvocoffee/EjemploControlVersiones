@@ -1,7 +1,7 @@
 # Funciones para calcular perímetros
 
 # Perímetro de un cuadrado
-perimetro_cuadrado <- function(lado) {
+PerimetroCuadrado <- function(lado) {   #nombre modificado
   perimetro <- 4 * lado
   return(perimetro)
 }
