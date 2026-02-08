@@ -1,30 +1,16 @@
 ---
-title: "CalculoAreas"
-author: "Dorina Panna Kovács"
-date: "2026-02-08"
+title: "Cálculo de Áreas"
 output: html_document
 ---
+## Área de un círculo
+```{r}
+# Función para calcular área de un círculo
+area_circulo <- function(radio) {
+  area <- pi * radio^2
+  return(area)
+}
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
+# Ejemplo
+radio <- 5
+cat("El área de un círculo de radio", radio, "es:", area_circulo(radio))
 ```
-
-## R Markdown
-
-This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
-
-When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
-
-```{r cars}
-summary(cars)
-```
-
-## Including Plots
-
-You can also embed plots, for example:
-
-```{r pressure, echo=FALSE}
-plot(pressure)
-```
-
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
