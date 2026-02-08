@@ -14,3 +14,7 @@ area_circulo <- function(radio) {
 radio <- 5
 cat("El área de un círculo de radio", radio, "es:", area_circulo(radio))
 ```
+
+```{r}
+# Modificado desde GitHub
+```
